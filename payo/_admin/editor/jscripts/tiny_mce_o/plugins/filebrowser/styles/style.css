@@ -1,0 +1,105 @@
+.colorTable { 
+	cursor:pointer; 
+}
+
+.SelectedD {
+	color:white; 
+	background:#C2CBE0;
+	margin-top: 5pt; 
+	margin-bottom: 5pt; 
+	cursor: pointer; 
+	height: 24px;
+}
+
+.UnSelectedD {
+	color:black; 
+	background:white;
+	margin-top: 5pt; 
+	margin-bottom: 5pt; 
+	cursor: pointer; 
+	height: 24px;
+}
+
+TABLE#tblCoolbar { 
+	background-color:buttonface; padding:1px; color:menutext; 
+	border-width:1px; border-style:solid; 
+	border-color:threedhighlight threedshadow threedshadow threedhighlight;
+	}
+
+TABLE#tblSavebar { 
+	background-color:buttonface; padding:1px; color:menutext; 
+	border-width:1px; border-style:solid; 
+	border-color:threedhighlight threedshadow threedshadow threedhighlight;
+}
+
+.cbtn{
+	BORDER-LEFT: threedface 1px solid;
+	BORDER-RIGHT: threedface 1px solid;
+	BORDER-TOP: threedface 1px solid;
+	BORDER-BOTTOM: threedface 1px solid; 
+}
+
+.btnImage{
+	cursor: pointer; 
+	cursor: hand;
+   margin:0px 0px 0 0px;
+	top: 0px;
+	bottom: 0px;
+	padding:0;
+}
+
+.separator{
+	border-left: buttonshadow solid 1px; 
+	border-right: buttonhighlight solid 1px; 
+	font-size: 0px; 
+	top: 1px;
+	height: 22px; 
+	width: 1px; 
+}
+
+.dropdown{
+	height: 22px; 
+	top:2;
+	font:8pt verdana,arial,sans-serif
+}
+
+.starter{
+	background-color: buttonface; 
+	border-left: buttonhighlight solid 1px; 
+	border-right: buttonshadow solid 1px;
+	border-top: buttonhighlight solid 1px; 
+	font-size: 1px;
+	top: 1px; 
+	height: 22px; 
+	width: 3px;
+}
+
+
+.body_file {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size:11px;
+	scrollbar-3dlight-color:#F0F0EE;
+	scrollbar-arrow-color:#676662;
+	scrollbar-base-color:#F0F0EE;
+	scrollbar-darkshadow-color:#DDDDDD;
+	scrollbar-face-color:#E0E0DD;
+	scrollbar-highlight-color:#F0F0EE;
+	scrollbar-shadow-color:#F0F0EE;
+	scrollbar-track-color:#F5F5F5;
+	background:#FFFFFF;
+	padding:0;
+	margin:2px 2px 0 2px;
+	font-size: 7px;
+}
+
+#prev {margin:0; border:1px solid #000; width:200px; height:200px; overflow:auto;}
+
+.titbrw {
+	background:#C0C0C0;
+	border-right: 1px solid;
+	height: 20px;
+	font-weight:bold;
+	padding:2;
+}
+
+#fileinfo {margin:0; border:1px solid #000; width:200px; height:100px}
+

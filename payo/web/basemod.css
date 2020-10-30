@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/**
+ * "Yet Another Multicolumn Layout" - (X)HTML/CSS Framework
+ *
+ * (en) Screen layout for YAML examples
+ * (de) Bildschirmlayout für YAML-Beispiele
+ *
+ * @copyright       Copyright 2005-2009, Dirk Jesse
+ * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/),
+ *                  YAML-C (http://www.yaml.de/en/license/license-conditions.html)
+ * @link            http://www.yaml.de
+ * @package         yaml
+ * @version         3.1
+ * @revision        $Revision: 343 $
+ * @lastmodified    $Date: 2009-01-19 23:41:32 +0100 (Mo, 19. Jan 2009) $
+ */
+ 
+ @import url("http://fonts.googleapis.com/css?family=Exo");
+ @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,600");
+
+@media screen, projection
+{
+  /**
+   * (en) Formatting YAML's  basic layout elements
+   * (de) Gestaltung des YAML Basis-Layouts
+   */
+
+  /* (en) Marginal areas & page background */
+  /* (de) Randbereiche & Seitenhintergrund */
+   body { background-color: #ffffff; padding: 0;background-image:url(/images/fondo_body_gral.jpg); background-repeat:repeat-x; background-position: center top; }
+
+  /* (en) Centering layout in old IE-versions */
+  /* (de) Zentrierung des Layouts in alten IE-versionen */
+  body { text-align: center; }
+  .page_margins { text-align:left; margin: 0 auto; }
+
+  /* (en) Layout: width, background, borders */
+  /* (de) Layout: Breite, Hintergrund, Rahmen */
+  .page_margins { min-width: 970px; max-width: 80em;}
+  .page { padding: 0px; }
+
+  /* (en) Designing main layout elements */
+  /* (de) Gestaltung der Hauptelemente des Layouts */
+
+  #header {
+    
+    padding:0px;
+	
+	
+  }
+
+  #topnav { color: #aaa; background: transparent; margin-left:0px;}
+
+  /* (en) adjustment of main navigation */
+  /* (de) Anpassung der Hauptnavigation */
+  #nav ul { margin-left: 20px; }
+
+  #main {}
+
+  #footer {padding:0px; background-color:#00293f; height:335px;}
+
+  /*------------------------------------------------------------------------------------------------------*/
+
+  /**
+   * (en) Formatting content container
+   * (de) Formatierung der Inhalts-Container
+   *
+   * |-------------------------------|
+   * | #header                       |
+   * |-------------------------------|
+   * | #col1   | #col3     | #col2   |
+   * | 25%     | flexible  | 25%     |
+   * |-------------------------------|
+   * | #footer                       |
+   * |-------------------------------|
+   */
+
+
+  #col1 { width: 25%; }
+  #col1_content { padding: 10px 10px 10px 20px; }
+
+  #col2 { width: 25%; }
+  #col2_content { padding: 10px 20px 10px 10px; }
+
+  #col3 { margin: 0 25% 0 0; }
+  #col3_content { padding: 10px; }
+
+  /*------------------------------------------------------------------------------------------------------*/
+
+  /**
+   * (en) Styling of layout specific elements
+   * (de) Gestaltung layoutabhängiger Elemente
+   */
+
+  #header h1 {
+    font-weight:bold;
+    font-size:2.5em;
+    letter-spacing:-2px;
+    line-height:65%;
+    color:#000;
+  }
+
+ 
+
+  #topnav a {font-weight: normal; background:transparent; text-decoration:none; color:#ffffff; font-size:12px; font-family:'Open Sans', sans-serif; }
+  #topnav a:focus,
+  #topnav a:hover,
+  #topnav a:active { text-decoration:none; background-color: transparent; color:#00a8eb }
+
+  #footer a {}
+  #footer a:focus,
+  #footer a:hover,
+  #footer a:active {}
+}

@@ -1,0 +1,70 @@
+.SelectedD {
+	color:white; 
+	background:#C2CBE0;
+	margin-top: 5pt; 
+	margin-bottom: 5pt; 
+	cursor: pointer; 
+	height: 24px;
+}
+
+.UnSelectedD {
+	color:black; 
+	background:white;
+	margin-top: 5pt; 
+	margin-bottom: 5pt; 
+	cursor: pointer; 
+	height: 24px;
+}
+
+.btnImage{
+	cursor: pointer; 
+	cursor: hand;
+   margin:0px 2px 0px 2px;
+	top: 0px;
+	bottom: 0px;
+	padding:0;
+}
+
+.separator {display:block; background:url(../images/icons.gif) -180px 0; width:2px; height:20px; margin:0px 2px 0 2px}
+
+#prev {margin:0; border:1px solid #000; width:200px; height:200px; overflow:auto;}
+
+.titbrw {
+	background:#C0C0C0;
+	border-right: 1px solid;
+	height: 20px;
+	font-weight:bold;
+	padding:2;
+}
+
+#fileinfo {margin:0; border:1px solid #000; width:200px; height:100px}
+
+#filebrowse {
+	background:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px;
+	scrollbar-3dlight-color:#F0F0EE;
+	scrollbar-arrow-color:#676662;
+	scrollbar-base-color:#F0F0EE;
+	scrollbar-darkshadow-color:#DDDDDD;
+	scrollbar-face-color:#E0E0DD;
+	scrollbar-highlight-color:#F0F0EE;
+	scrollbar-shadow-color:#F0F0EE;
+	scrollbar-track-color:#F5F5F5;
+	background:#FFFFFF;
+}
+
+.filebrw {
+	font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px;
+	scrollbar-3dlight-color:#F0F0EE;
+	scrollbar-arrow-color:#676662;
+	scrollbar-base-color:#F0F0EE;
+	scrollbar-darkshadow-color:#DDDDDD;
+	scrollbar-face-color:#E0E0DD;
+	scrollbar-highlight-color:#F0F0EE;
+	scrollbar-shadow-color:#F0F0EE;
+	scrollbar-track-color:#F5F5F5;
+	background:#FFFFFF;
+	padding:0;
+	margin:0px 0px 0px 0px;
+}
+
